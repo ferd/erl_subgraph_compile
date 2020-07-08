@@ -1,0 +1,15 @@
+{application, erl_subgraph_compile,
+ [{description, "A rebar plugin to only do partial re-builds of some "
+                "files without any safety checks."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
