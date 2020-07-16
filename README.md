@@ -17,7 +17,7 @@ Add the plugin to your rebar config:
 
     {project_plugins, [
         {erl_subgraph_compile,
-         {git, "https://github.com/ferd/erl_subgraph_compile.git", {branch, "master"}}}
+         {git, "https://github.com/ferd/erl_subgraph_compile.git", {branch, "main"}}}
     ]}.
 
 Then just call your plugin directly in an existing application:
